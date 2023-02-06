@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-bg: #ffffff;
+    --text-color: #ffffff;
+    --hover: #ffffff;
+}
+.login-text{
+    cursor: auto;
+}
+.cfi{
+    margin: 20px 0px;
+    padding: 20px;
+    text-indent: 12px;
+}
+.cfb{
+    padding: 10px 15px;
+}
+#signup-form {
+  display: none;
+}
+@media (max-width:767px) { 
+    .form-handle{
+        width: 100%;
+    }
+    .h-sec{
+        width: 0%;
+    }
+}
